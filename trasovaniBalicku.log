@@ -1,0 +1,28 @@
+2021-09-27 19:33:39.473  INFO 18292 --- [restartedMain] cz.mendelu.ja.ukol1.Ukol1Application     : Starting Ukol1Application using Java 11.0.11 on WINDOWS-FPK6949 with PID 18292 (C:\Users\Administrator\Desktop\ukol1\build\classes\java\main started by roman in C:\Users\Administrator\Desktop\ukol1)
+2021-09-27 19:33:39.476  INFO 18292 --- [restartedMain] cz.mendelu.ja.ukol1.Ukol1Application     : No active profile set, falling back to default profiles: default
+2021-09-27 19:33:39.521  INFO 18292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-27 19:33:39.523  INFO 18292 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-27 19:33:40.397  INFO 18292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-27 19:33:40.427  INFO 18292 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2021-09-27 19:33:41.358  INFO 18292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-27 19:33:41.374  INFO 18292 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-27 19:33:41.377  INFO 18292 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-09-27 19:33:41.643  INFO 18292 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-27 19:33:41.645  INFO 18292 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2122 ms
+2021-09-27 19:33:41.672  INFO 18292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-27 19:33:41.782  INFO 18292 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-27 19:33:41.788  INFO 18292 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:a685c8ad-fbc8-44d7-bb71-6aa140140e4c'
+2021-09-27 19:33:41.941  INFO 18292 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-27 19:33:42.017  INFO 18292 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-27 19:33:42.162  INFO 18292 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-27 19:33:42.358  INFO 18292 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-27 19:33:42.591  INFO 18292 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-27 19:33:42.608  INFO 18292 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-27 19:33:42.684  WARN 18292 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-27 19:33:43.220  INFO 18292 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-27 19:33:43.284  INFO 18292 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-27 19:33:43.300  INFO 18292 --- [restartedMain] cz.mendelu.ja.ukol1.Ukol1Application     : Started Ukol1Application in 4.615 seconds (JVM running for 6.131)
+2021-09-27 19:33:50.199  INFO 18292 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-27 19:33:50.201  INFO 18292 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-27 19:33:50.203  INFO 18292 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-27 19:33:50.437  INFO 18292 --- [http-nio-8080-exec-1] c.m.j.u.controller.BalicekController     : Letadylko: Prague

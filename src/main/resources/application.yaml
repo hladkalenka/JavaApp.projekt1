@@ -1,0 +1,9 @@
+#logging:
+#  file:
+#    name: trasovaniBalicku.log
+
+MenEx:
+  planes:
+    OK-AHT: Prague
+    OD-BKM: Brussel
+    CU-VIDOS: Havana
